@@ -14,8 +14,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Extract the Markdown file location from the URL
   const markdownFile = getParameterByName("file");
-  var converter = new showdown.Converter();
+  var converter = new showdown.Converter({ ghMentions: true, });
   converter.setFlavor("github");
+
   // Fetch and display the Markdown content
   fetch(markdownFile)
     .then((response) => {
@@ -26,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .then((markdownContent) => {
       var htmlContent = converter.makeHtml(markdownContent);
-
       articleBody.innerHTML = htmlContent;
+
       // Apply syntax highlighting using Highlight.js
       document.querySelectorAll("pre code").forEach((block) => {
         hljs.highlightBlock(block);

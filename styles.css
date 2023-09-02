@@ -1,0 +1,12 @@
+/* Add this CSS to your "styles.css" or a separate CSS file */
+body {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+  justify-content: center; /* Center vertically */
+  font-family: sans-serif;
+}
+
+main {
+}
