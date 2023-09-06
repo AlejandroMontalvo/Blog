@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     articles.forEach((article) => {
       // Create a list item for each article
       const listItem = document.createElement("li");
-      listItem.classList.add("article-item"); // Class for the list item
+      listItem.classList.add("article-link"); // Class for the list item
 
       // Create a link for each article with the Markdown file location as a URL parameter
       const link = document.createElement("a");

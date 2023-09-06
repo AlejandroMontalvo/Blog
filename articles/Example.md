@@ -2,6 +2,9 @@
 
 By @alejandromontalvo
 
+This is an exampled Markdown file primarily created to test the various features present within Markdown to HTML converters, such as showdown.js. Regardless, this should work with just about any Markdown viewer/converter.
+
+Each section is denoted by the h1 heading found at the top of each section. Within each section is a code block showcasing the relevant Markdown code, and below that is what the code looks like in native Markdown.
 
 # Headers
 
