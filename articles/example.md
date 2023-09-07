@@ -1,10 +1,10 @@
 # Markdown Example File
 
-By @alejandromontalvo
+Written by @alejandromontalvo
 
-This is an exampled Markdown file primarily created to test the various features present within Markdown to HTML converters, such as showdown.js. Regardless, this should work with just about any Markdown viewer/converter.
+This Markdown file serves as an illustrative example designed primarily for testing the functionality of Markdown to HTML converters, such as showdown.js. However, it is compatible with virtually any Markdown viewer or converter.
 
-Each section is denoted by the h1 heading found at the top of each section. Within each section is a code block showcasing the relevant Markdown code, and below that is what the code looks like in native Markdown.
+Each section is distinctly demarcated by an h1 heading. Within each section, you will find a code block demonstrating the pertinent inline Markdown code, followed by the corresponding representation in native Markdown.
 
 # Headers
 

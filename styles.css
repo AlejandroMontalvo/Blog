@@ -69,3 +69,7 @@ main {
 #article-list {
   height: 100%;
 }
+
+p {
+  text-align: justify;
+}
